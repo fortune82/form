@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" class="form">
+        <div>
+            <label for="log"> Логин:
+                <sup class="red_star">*</sup>
+            </label>
+            <input type="text" id="log" required>
+
+        </div>
+        <div>
+            <label for="first_name"> ФИО:
+                <sup class="red_star">*</sup>
+            </label>
+            <input type="text" id="first_name" required>
+        </div>
+        <div>
+            <label for="password"> Введите пароль:
+                <sup class="red_star">*</sup>
+            </label>
+            <input type="password" required id="password" minlength="5">
+        </div>
+        <div>
+            <a href="#" class="recovery">Забыли пароль</a>
+        </div>
+        <div>
+            <label id="city"> Выберите город:</label>
+            <select>
+                <option value="Киев">Киев</option>
+                <option value="Мариуполь" selected>Мариуполь</option>
+                <option value="Донецк">Донецк</option>
+                <option value="Берлин">Берлин</option>
+                <option value="Москва">Москва</option>
+                <option value="Вашингтон">Вашингтон</option>
+            </select>
+
+        </div>
+        <div>
+            <label for="date"> Дата рождения:</label>
+            <input type="date" id="date">
+        </div>
+        <div> Выберите язык:
+            <div class="lang">
+                <label for="eng">English</label>
+                <input type="checkbox" id="eng">
+            </div>
+            <div class="lang">
+                <label for="rus">Русский</label>
+                <input type="checkbox" id="rus">
+            </div>
+            <div class="lang">
+                <label for="ukr">Український</label>
+                <input type="checkbox" id="ukr">
+            </div>
+        </div>
+        <div>Выберите пол:
+            <div class="sex">
+                <label for="man">Муж.</label>
+                <input type="radio" id="man" name="sex">
+            </div>
+            <div class="sex">
+                <label for="woman">Жен. </label>
+                <input type="radio" id="woman" name="sex">
+            </div>
+        </div>
+        <div>
+            <label> О себе: </label>
+            <textarea placeholder="Напишите что-то про себя"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Отправить форму" class="btn">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

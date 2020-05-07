@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    width: 500px;
+    border: 1px solid grey;
+    margin: 50px auto;
+    text-transform: uppercase;
+    background-color: #404040;
+    color: #dfdbdf;
+    text-shadow: 1px 1px 3px black;
+}
+
+form div {
+    padding-left: 50px;
+    width: 460px;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+div:nth-child(1) {
+    padding-top: 20px;
+}
+
+form div input,
+select {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.16);
+    color: #999898;
+    border: none;
+    display: inline-block;
+}
+
+.red_star {
+    font-size: 10px;
+    color: rgb(250, 153, 153);
+}
+
+label {
+    width: 200px;
+    text-transform: none;
+    display: inline-block;
+    /* text-align: right; */
+
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    height: 15px;
+    position: relative;
+    left: -93px;
+    top: 3px;
+}
+
+.lang,
+.sex {
+    padding-left: 0px;
+}
+
+.recovery {
+    color: #00a1d2;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: none;
+    padding-left: 205px;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 15px;
+}
+
+textarea {
+    resize: none;
+    width: 330px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: -15px;
+}
+
+.btn {
+    background-color: rgb(149, 204, 149);
+    color: white;
+    font-size: 18px;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px grey;
+    box-shadow: 0px 0px 4px #1a1717;
+    position: relative;
+    right: -232px;
+    bottom: 10px;
+
+}
